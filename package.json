@@ -29,5 +29,8 @@
     "eslint-plugin-formatting": "0.0.4",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-mocha": "^4.11.0"
+  },
+  "dependencies": {
+    "fs-copy-file-sync": "^1.1.1"
   }
 }
