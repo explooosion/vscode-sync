@@ -4,7 +4,9 @@
   "description": "Synchronize your Visual Studio Code Extensions",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js --mode=backup",
+    "backup": "node index.js --mode=backup",
+    "restore": "node index.js --mode=restore"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "eslint-plugin-mocha": "^4.11.0"
   },
   "dependencies": {
-    "fs-copy-file-sync": "^1.1.1"
+    "fs-copy-file-sync": "^1.1.1",
+    "yargs": "^12.0.1"
   }
 }
