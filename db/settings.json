@@ -1,0 +1,47 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 1,
+    "rust.racer_completion": false,
+    "rust.all_targets": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "workbench.colorTheme": "Ramda",
+    "git.confirmSync": false,
+    "git.autofetch": false,
+    "git.enableSmartCommit": false,
+    "vsicons.projectDetection.autoReload": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "E:\\Program\\cmder\\bootstrap.bat"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.keymap": "alternate",
+    "editor.formatOnSave": false,
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.ejs": "ejs",
+        "*.js": "javascriptreact"
+    },
+    "vscode-imgur.client_id": "a0638597156bbc1",
+    "gitlens.historyExplorer.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "workbench.startupEditor": "newUntitledFile",
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-pc-windows-msvc"
+    },
+    "rust.mode": "legacy"
+}
