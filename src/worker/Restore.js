@@ -34,9 +34,8 @@ class RestoreWorker extends Base {
     // Restore extensions
     this.datas.forEach((data, index) => {
       if (String(data).length > 0) {
-        console.log(`Installing ${data}...`)
+        console.log(`${index + 1}/${this.datas.length} Installing ${data}`)
         this.spawn = spawn('cmd', ['/s', '/c', 'code', '--install-extension', data])
-        // console.log('Extensions were restored!')
       }
     })
 
