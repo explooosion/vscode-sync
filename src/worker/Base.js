@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 class Worker {
 
   spawn = null
@@ -11,6 +13,10 @@ class Worker {
   settingsFile = 'settings.json'
 
   settingsSource = 'Code\\User\\settings.json'
+
+  constructor() {
+    if (!fs.existsSync(this.prefixFolder)) fs.mkdirSync(this.prefixFolder)
+  }
 
 }
 
