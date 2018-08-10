@@ -23,7 +23,7 @@
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "terminal.integrated.shellArgs.windows": [
         "/K",
-        "E:\\Program\\cmder\\bootstrap.bat"
+        "C:\\cmder\\bootstrap.bat"
     ],
     "explorer.confirmDragAndDrop": false,
     "vsicons.dontShowNewVersionMessage": true,
